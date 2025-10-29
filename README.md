@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+Iam a student in Algonquin College taking Business Intelligence and Systems Infrasrtucture.
+Additionally, I have been working as a Business Systems Analyst for 11 years in Banking, Finance, and Insurance industries at the Philippines.
