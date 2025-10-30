@@ -1,5 +1,4 @@
-## Good day! 👋
-
+## Joseph Alexius Tapang - Business Systems Analyst
 <!--
 **josephalexius/josephalexius** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -15,5 +14,14 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Iam a student in Algonquin College taking Business Intelligence and Systems Infrasrtucture.
-Additionally, I have been working as a Business Systems Analyst for 11 years in Banking, Finance, and Insurance industries at the Philippines.
+Iam a student in Algonquin College taking Business Intelligence and Systems Infrasrtucture and have compeleted a Bachelor's Degree in Computer Science.
+I have my career as a Business Analyst for 11 years in Banking, Finance, and Insurance industries.
+
+This repository provides more information about the projects that I worked on, with sample documents to demonstrate my analytical and technical skills.
+
+
+
+#Portfolio Projects
+
+**Automated Event Registration and Reporting Project
+
