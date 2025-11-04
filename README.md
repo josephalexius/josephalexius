@@ -21,7 +21,8 @@ This repository provides more information about the projects that I worked on, w
 
 
 
-#Portfolio Projects#
+## Portfolio Projects
 
 **Automated Event Registration and Reporting Project**
+
 
