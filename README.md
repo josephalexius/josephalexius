@@ -22,6 +22,17 @@ Here are some ideas to get you started:
 - I have my career as a Business Analyst for 11 years in Banking, Finance, and Insurance industries.
 
 This repository provides more information about the projects that I worked on, with sample documents to demonstrate my analytical and technical skills.
+## Domain Expertise
+- Trust Banking
+  - Client Management
+    - Client Prospecting
+    - Client Onboarding
+      - KYC Procedure
+      - Investment Risk Assessment
+    - Trust Account Creation
+    - Portfolio Creation
+    - Client Accounting Entry Creation
+
 
 ## Schoolwork / Projects worked on
 
