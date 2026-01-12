@@ -1,4 +1,4 @@
-## Joseph Alexius Tapang - Business Systems Analyst
+## Joseph Alexius Tapang - Business Intelligence and Systems Infrastructure student | Business Systems Analyst
 <!--
 **josephalexius/josephalexius** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -21,8 +21,11 @@ This repository provides more information about the projects that I worked on, w
 
 
 
-## Portfolio Projects
+## Schoolwork / Projects
 
-**Automated Event Registration and Reporting Project**
+**Loan Eligibility Program**
+
+
+
 
 
