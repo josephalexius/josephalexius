@@ -23,7 +23,12 @@ This repository provides more information about the projects that I worked on, w
 
 ## Schoolwork / Projects
 
-**Loan Eligibility Program**
+**Loan Eligibility Prediction**
+This classwork applied machine learning algorithms to predict a customer's loan eligibility based from other information in a given dataset.
+
+**Automated Client Risk Assessment Questionnaire**
+
+**E-Learning Dataset Dashboard**
 
 
 
