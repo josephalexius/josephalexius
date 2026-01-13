@@ -54,10 +54,10 @@ This repository provides more information about the projects that I worked on, w
 
 #### E-Learning Dataset Dashboard
 **Domain:** Education
-\n**Tools:** Python, Power BI, MS PowerPoint
-**Objective:** 
-**Overview:**
-**Benefits:**
+<\n>**Tools:** Python, Power BI, MS PowerPoint
+<\n>**Objective:** 
+<\n>**Overview:**
+<\n>**Benefits:**
 
 
 
