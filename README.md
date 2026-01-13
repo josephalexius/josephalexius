@@ -37,25 +37,27 @@ This repository provides more information about the projects that I worked on, w
 ## Schoolwork / Projects worked on
 
 #### An Analysis and Prediction on Fire Incidents within Greater Toronto Area
-Domain: Emergency Response
-Tools used: Python(pandas, matplotlib, seaborn, scikit), MS Excel, MS, Word
-Objctive: Perform analysis on Toronto Fire Services dataset and apply machine learning algorithms while adhering to CRISP-DM methodology.
-Overview
-Benefits
+**Domain:** Emergency Response
+**Tools used:** Python(pandas, matplotlib, seaborn, scikit), MS Excel, MS, Word
+**Objctive:** Perform analysis on Toronto Fire Services dataset and apply machine learning algorithms while adhering to CRISP-DM methodology.
+**Overview:**
+**Benefits:**
 
 
 #### Automated Client Risk Assessment Questionnaire
-Domain: Finance
-Tools: Python(streamlit, pandas, numpy, matplotlib, plotly), MS Excel, MS Word
-Objective: Apply python programming concepts to a real-world industry scenario.
-Overview
-Benefits
+**Domain:** Finance
+**Tools:** Python(streamlit, pandas, numpy, matplotlib, plotly), MS Excel, MS Word
+**Objective:** Apply python programming concepts to a real-world industry scenario.
+**Overview:**
+**Benefits:**
 
 
 #### E-Learning Dataset Dashboard
 Domain: Education
 Tools: Python, Power BI, MS PowerPoint
-
+**Objective:** 
+**Overview:**
+**Benefits:**
 
 
 
