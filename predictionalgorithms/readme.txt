@@ -5,6 +5,7 @@ Purpose:
     This project aims to demonstrate a compilation of four  machine learning algorithms: Linear Regression, Random Forest, Clustering, and Neural Networks.
     All models were trained and evaluated, then saved into a pickle (.pkl) file, then loaded into the program to perform predictions based from the input parameters
     displayed in each algorithm page.
+
 About the program:
     - This project is developed using python and streamlit libraries. 
     - The project is contained in a folder named Prediction Algorithms. It also contains the environment with the libraries used and listed in requirements.txt file.
@@ -16,6 +17,7 @@ About the program:
         - Neural Networks: Algorithm contained in the subfolder Pages with filename neuralnetworks.py.
 
 How to use the program for all algorithms:
+    - Using streamlit cloud: Access the program through this link by copying and pasting in a new browser tab: https://josephalexius-predictionalgo20260408.streamlit.app/
     - Using local IDE: on the terminal, navigate to your folder path where linear_regression.py was contained.
         - Run the application by typing streamlit run linear_regression.py
     - Input or select values in the page.
