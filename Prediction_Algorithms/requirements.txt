@@ -1,6 +1,0 @@
-pandas
-pickle
-streamlit
-logging
-scikit-learn
-numpy
