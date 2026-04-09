@@ -20,7 +20,7 @@ model_file = os.path.join(root_dir, 'clustering.pkl')
 
 # 2. Error Handling for Model Loading
 try:
-    with open("clustering.pkl", "rb") as cs_pickle:
+    with open(model_file, "rb") as cs_pickle:
         cs_model = pickle.load(cs_pickle)
     logging.info("Clustering model loaded successfully.")
 except FileNotFoundError:
