@@ -14,9 +14,8 @@ logging.basicConfig(
 st.title("Housing Price Predictor")
 st.write("This application predicts the housing price based on historical characteristics.")
 
-pages_dir = os.path.dirname(__file__)
-root_dir = os.path.abspath(os.path.join(pages_dir, '..'))
-model_file = os.path.join(root_dir, 'linearregresssion.pkl')
+base_path = os.path.dirname(__file__)
+model_file = os.path.join(base_path, 'linearregression.pkl')
 
 # 2. Error Handling for Model Loading
 try:
