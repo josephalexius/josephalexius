@@ -21,9 +21,9 @@ st.write("This application predicts the probability of admission to UCLA.")
 
 # 2. Error Handling for Model and Scaler Loading
 try:
-    with open("neuralnetworks.pkl", "rb") as nn_pickle:
+    with open(model_file, "rb") as nn_pickle:
         nn_model = pickle.load(nn_pickle)
-    with open("scaler.pkl", "rb") as s_pickle:
+    with open(scaler_file, "rb") as s_pickle:
         scaler = pickle.load(s_pickle)
     logging.info("Model and Scaler loaded successfully.")
 except FileNotFoundError as e:
