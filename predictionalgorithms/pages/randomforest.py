@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import pickle
 import streamlit as st
@@ -18,6 +19,9 @@ This application predicts survivability based from
          historical datasets.
 """)
 
+pages_dir = os.path.dirname(__file__)
+root_dir = os.path.abspath(os.path.join(pages_dir, '..'))
+model_file = os.path.join(root_dir, 'randomforest.pkl')
 
 # 2. Error Handling for Model Loading
 try:
