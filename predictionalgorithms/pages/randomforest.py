@@ -25,7 +25,7 @@ model_file = os.path.join(root_dir, 'randomforest.pkl')
 
 # 2. Error Handling for Model Loading
 try:
-    with open("randomforest.pkl", "rb") as rf_pickle:
+    with open(model_file, "rb") as rf_pickle:
         rf_model = pickle.load(rf_pickle)
     logging.info("Random Forest model loaded successfully.")
 except FileNotFoundError:
