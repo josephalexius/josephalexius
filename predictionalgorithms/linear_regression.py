@@ -21,7 +21,7 @@ model_path = os.path.join(BASE_DIR, 'linearregression.pkl')
 
 # 2. Error Handling for Model Loading
 try:
-    with open("linearregression.pkl", "rb") as lr_pickle:
+    with open(model_path, "rb") as lr_pickle:
         lr_model = pickle.load(lr_pickle)
     logging.info("Linear Regression model loaded successfully.")
 except FileNotFoundError:
