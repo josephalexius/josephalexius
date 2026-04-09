@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import pickle
 import streamlit as st
@@ -9,6 +10,11 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
+
+pages_dir = os.path.dirname(__file__)
+root_dir = os.path.abspath(os.path.join(pages_dir, '..'))
+model_file = os.path.join(root_dir, 'neuralnetworks.pkl')
+scaler_file = os.path.join(root_dir, 'scaler.pkl')
 
 st.title("UCLA Admission Predictor")
 st.write("This application predicts the probability of admission to UCLA.")
