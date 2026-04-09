@@ -13,6 +13,10 @@ logging.basicConfig(
 st.title("Mall Customer Segmentation")
 st.write("This application groups customers into segments based on their attributes.")
 
+pages_dir = os.path.dirname(__file__)
+root_dir = os.path.abspath(os.path.join(pages_dir, '..'))
+model_file = os.path.join(root_dir, 'clustering.pkl')
+
 # 2. Error Handling for Model Loading
 try:
     with open("clustering.pkl", "rb") as cs_pickle:
