@@ -5,7 +5,7 @@ import streamlit as st
 import logging
 
 
-# 1. Setup Logging
+# configure to enable logging for error handling
 logging.basicConfig(
     filename='survival_app.log', 
     level=logging.INFO,
@@ -19,11 +19,16 @@ This application predicts survivability based from
          historical datasets.
 """)
 
+# set code to locate file path same as the current directory of the code
 pages_dir = os.path.dirname(__file__)
+
+# configure path to navigate one directory up from the code location
 root_dir = os.path.abspath(os.path.join(pages_dir, '..'))
+
+#concatenate the directory with the filename
 model_file = os.path.join(root_dir, 'randomforest.pkl')
 
-# 2. Error Handling for Model Loading
+# set up error handling to catch potential errors
 try:
     with open(model_file, "rb") as rf_pickle:
         rf_model = pickle.load(rf_pickle)
@@ -38,35 +43,20 @@ except Exception as e:
     st.stop()
 
 
-# Prepare the form to collect user inputs
+# design the form
 with st.form("user_inputs"):
     st.subheader("Passenger Characteristics")
-    
-    # Passenger Class
-    pclass = st.selectbox("Passenger Class:", 
-                               options=["1", "2", "3"])
-    
-    # Gender
+    pclass = st.selectbox("Passenger Class:", options=["1", "2", "3"])
     gender = st.selectbox("Gender:", options=["Male", "Female"])
-
-    # Place Embarked
     placeEmbarked = st.selectbox("Port Embarked Code:", options=["C", "Q", "S"])
-
-    # Relatives 
     relatives = st.selectbox("Number of Relatives:", options=["None", "Few", "Many"])
-
-    # Fare Group
     fareGroup = st.selectbox("Fare Class:", options=["Low", "Medium", "High", "Premium"])
-
-    # Age Group
     ageGroup = st.selectbox("Age Class:", options=["Young", "Adult", "Elderly"])
 
-    # Submit button
     submitted = st.form_submit_button("Predict Survibability")
 
-
-# Handle the dummy variables to pass to the model
 if submitted:
+    # set up error handling upon submit to catch and log information
     try:    
         pclass1 = 1 if pclass == "1" else 0
         pclass2 = 1 if pclass == "2" else 0
@@ -92,7 +82,7 @@ if submitted:
         ageGroupAdult = 1 if ageGroup == "Adult" else 0
         ageGroupElderly = 1 if ageGroup == "Elderly" else 0
 
-        # Prepare the input for prediction. 
+        # arrange attributes to match algorithm input requirements
         rf_prediction_input = [[ 
             pclass1, pclass2, pclass3, gender1, gender2, 
             placeEmbarkedC, placeEmbarkedQ, placeEmbarkedS,
@@ -101,15 +91,16 @@ if submitted:
             ageGroupAdult, ageGroupElderly, ageGroupYoung
         ]]
 
-        # Make prediction
+        # predict based from inputs
         rf_new_prediction = rf_model.predict(rf_prediction_input)
 
-        # Display result
+        # display result
         st.subheader("Prediction Result:")
         if rf_new_prediction[0] == 1:
             st.success(f"The passenger will likely survive.")   
         else:
             st.warning(f"The passenger will not survive.")   
+        logging.info(f"Prediction successful.")
     except Exception as e:
         st.error("An error occurred.")
         logging.error(f"Error: {e}")
