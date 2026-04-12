@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 import logging
 
-# 1. Setup Logging
+# configure to enable logging for error handling
 logging.basicConfig(
     filename='clustering_app.log', 
     level=logging.INFO,
@@ -14,11 +14,16 @@ logging.basicConfig(
 st.title("Mall Customer Segmentation")
 st.write("This application groups customers into segments based on their attributes.")
 
+# set code to locate file path same as the current directory of the code
 pages_dir = os.path.dirname(__file__)
+
+# configure path to navigate one directory up from the code location
 root_dir = os.path.abspath(os.path.join(pages_dir, '..'))
+
+#concatenate the directory with the filename
 model_file = os.path.join(root_dir, 'clustering.pkl')
 
-# 2. Error Handling for Model Loading
+# set up error handling to catch potential errors
 try:
     with open(model_file, "rb") as cs_pickle:
         cs_model = pickle.load(cs_pickle)
@@ -32,40 +37,28 @@ except Exception as e:
     logging.error(f"Load error: {e}")
     st.stop()
 
-# Prepare the form
+# design the form
 with st.form("user_inputs"):
-    st.subheader("Customer Attributes") # Fixed header from 'Housing' to 'Customer'
+    st.subheader("Customer Attributes")
 
-    annualIncome = st.number_input("Annual Income (in thousand dollars):", 
-                                   min_value=0, 
-                                   step=1,
-                                   max_value=999)
-
-    spendingScore = st.number_input("Spending Score (1-100):", 
-                                    min_value=0, 
-                                    step=1,
-                                    max_value=100)
-
-    age = st.number_input("Age:", 
-                          min_value=0, 
-                          step=1,
-                          max_value=120)
+    annualIncome = st.number_input("Annual Income (in thousand dollars):", min_value=0, step=1,max_value=999)
+    spendingScore = st.number_input("Spending Score (1-100):", min_value=0, step=1, max_value=100)
+    age = st.number_input("Age:", min_value=0, step=1,max_value=120)
     
     submitted = st.form_submit_button("Predict Customer Group")
 
 if submitted:
-    # 3. Error Handling for Clustering Prediction
+    # set up error handling upon submit to catch and log information
     try:
-        # Prepare input
+        # arrange attributes to match algorithm input requirements
         cs_prediction_input = [[annualIncome, spendingScore, age]]
 
-        # Make prediction (cluster assignment)
+        # predict based from inputs
         cluster_result = cs_model.predict(cs_prediction_input)
         cluster_id = int(cluster_result[0])
 
-        # Display result
+        # display result
         st.subheader("Prediction Result:")
-        # Simplified display logic - no need for multiple elifs if just showing the ID
         st.success(f"The customer belongs to **Group {cluster_id}**.")
         
         logging.info(f"Successful. Input: {cs_prediction_input} Cluster: {cluster_id}")
