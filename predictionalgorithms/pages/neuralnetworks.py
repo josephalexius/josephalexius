@@ -4,22 +4,27 @@ import pickle
 import streamlit as st
 import logging
 
-# 1. Setup Logging
+# configure to enable logging for error handling
 logging.basicConfig(
     filename='nn_admission_app.log', 
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
+# set code to locate file path same as the current directory of the code
 pages_dir = os.path.dirname(__file__)
+
+# configure path to navigate one directory up from the code location
 root_dir = os.path.abspath(os.path.join(pages_dir, '..'))
+
+#concatenate the directory with the filename
 model_file = os.path.join(root_dir, 'neuralnetworks.pkl')
 scaler_file = os.path.join(root_dir, 'scaler.pkl')
 
 st.title("UCLA Admission Predictor")
 st.write("This application predicts the probability of admission to UCLA.")
 
-# 2. Error Handling for Model and Scaler Loading
+# set up error handling to catch potential errors
 try:
     with open(model_file, "rb") as nn_pickle:
         nn_model = pickle.load(nn_pickle)
@@ -35,7 +40,7 @@ except Exception as e:
     logging.error(f"Unexpected load error: {e}")
     st.stop()
 
-# Prepare the form
+# design the form
 with st.form("user_inputs"):
     st.subheader("Student Circumstances")
     
@@ -50,20 +55,20 @@ with st.form("user_inputs"):
     submitted = st.form_submit_button("Predict Admission Chance")
 
 if submitted:
-    # 3. Error Handling for Logic and Prediction
+    # set up error handling upon submit to catch and log information
     try:
-        # BUG FIX: Comparing integer input to integers (not strings)
+        
         universityRating1 = 1 if universityRating == 1 else 0
         universityRating2 = 1 if universityRating == 2 else 0
         universityRating3 = 1 if universityRating == 3 else 0
         universityRating4 = 1 if universityRating == 4 else 0
         universityRating5 = 1 if universityRating == 5 else 0
 
-        # BUG FIX: Research variables should map from 'hasResearchExperience', not 'universityRating'
+        
         hasResearchExperience1 = 1 if hasResearchExperience == "Yes" else 0
         hasResearchExperience0 = 1 if hasResearchExperience == "No" else 0
 
-        # Prepare raw input
+        # arrange attributes to match algorithm input requirements
         nn_raw_input = [[
             greScore, toeflScore, sopStrength, lorStrength, cgpa,
             universityRating1, universityRating2, universityRating3,
@@ -71,13 +76,13 @@ if submitted:
             hasResearchExperience1
         ]]
 
-        # Scale the data
+        # scale inputs to conform with the input requirement of the algorith
         scaled_input = scaler.transform(nn_raw_input)
 
-        # Make prediction
+        # predict based from inputs
         prediction = nn_model.predict(scaled_input)
 
-        # Display result
+        # display result
         st.subheader("Prediction Result:")
         if prediction[0] == 1:
             st.success("The student will likely be admitted.")
