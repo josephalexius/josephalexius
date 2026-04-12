@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 import logging
 
-# 1. Setup Logging
+# configure to enable logging for error handling
 logging.basicConfig(
     filename='housing_app.log', 
     level=logging.INFO,
@@ -14,12 +14,12 @@ logging.basicConfig(
 st.title("Housing Price Predictor")
 st.write("This application predicts the housing price based on historical characteristics.")
 
-# Find the absolute path to the directory this script is in
+# set code to locate file path same as the current directory of the code
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# Join that directory with your filename
+#concatenate the directory with the filename
 model_path = os.path.join(BASE_DIR, 'linearregression.pkl')
 
-# 2. Error Handling for Model Loading
+# set up error handling to catch potential errors
 try:
     with open(model_path, "rb") as lr_pickle:
         lr_model = pickle.load(lr_pickle)
@@ -33,7 +33,7 @@ except Exception as e:
     logging.error(f"Load error: {e}")
     st.stop()
 
-# Prepare the form
+# design the form
 with st.form("user_inputs"):
     st.subheader("Housing Characteristics")
     
@@ -57,9 +57,9 @@ with st.form("user_inputs"):
     submitted = st.form_submit_button("Predict Housing Price")
 
 if submitted:
-    # 3. Error Handling for Data Processing and Prediction
+    # set up error handling upon submit to catch and log information
     try:
-        # Convert categoricals
+        # convert input into categorical values
         hasYard_val = 1 if hasYard == "Yes" else 0
         hasPool_val = 1 if hasPool == "Yes" else 0
         isNewlyBuilt_val = 1 if isNewlyBuilt == "Yes" else 0
@@ -67,7 +67,7 @@ if submitted:
         hasStorageRoom_val = 1 if hasStorageRoom == "Yes" else 0
         hasGuestRoom_val = 1 if hasGuestRoom == "Yes" else 0
 
-        # Prepare input array
+        # arrange attributes to match algorithm input requirements
         lr_prediction_input = [[
             lotArea, numberOfRooms, hasYard_val, hasPool_val,
             floors, cityCode, cityPartRange, numberOfPreviousOwners,
@@ -75,10 +75,10 @@ if submitted:
             attic, garage, hasStorageRoom_val, hasGuestRoom_val
         ]]
 
-        # Make prediction
+        # predict based from inputs
         lr_new_prediction = lr_model.predict(lr_prediction_input)
 
-        # Display result
+        # display result
         st.subheader("Prediction Result:")
         st.success(f"The predicted housing price is: ${lr_new_prediction[0]:,.2f}")
         
