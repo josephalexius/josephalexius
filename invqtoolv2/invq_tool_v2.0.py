@@ -82,14 +82,15 @@ def Main_App():
             st.header("Investment Questionnaire")
             with st.form("q_form"):
                 try:
-                    df_q = pd.read_csv('questions.csv')
+                    df_q = pd.read_csv(os.path.join(os.path.dirname(__file__), 'questions.csv'))
+
                     ans_list = [st.radio(f"{i}. {r['Question']}", r.iloc[1:].dropna().tolist(), key=f"q_radio_{i}") for i, r in df_q.iterrows()]
                 except Exception:
                     st.error("Error: questions.csv file missing.")
                     return
 
                 if st.form_submit_button("Submit and Calculate"):
-                    df_w = pd.read_csv('weights.csv')
+                    df_w = pd.read_csv(os.path.join(os.path.dirname(__file__), 'weights.csv'))
                     total_w = 0.0
                     for i, ans in enumerate(ans_list):
                         col = df_q.iloc[i][df_q.iloc[i] == ans].index
