@@ -1,0 +1,4 @@
+Timestamp,ClientID,ClientName,Score,SubRisk,AIRisk
+2026-04-13 21:02:17,001,,21.0,Conservative,Moderate
+2026-04-13 21:04:41,001,John,21.0,Conservative,Moderate
+2026-04-13 21:08:33,001,Jen,64.0,Aggressive,Moderate
