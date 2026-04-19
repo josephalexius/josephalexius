@@ -1,6 +1,8 @@
 Prediction Algorithms Project
 ==============================
 
+Streamlit link : https://josephalexius-predictionalgo20260408.streamlit.app/
+
 Purpose: 
     This project aims to demonstrate a compilation of four  machine learning algorithms: Linear Regression, Random Forest, Clustering, and Neural Networks.
     All models were trained and evaluated, then saved into a pickle (.pkl) file, then loaded into the program to perform predictions based from the input parameters
