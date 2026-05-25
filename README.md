@@ -1,56 +1,65 @@
-## Joseph Alexius Tapang 
-## Business Intelligence and Systems Infrastructure student | Business Systems Analyst
-<!--
-**josephalexius/josephalexius** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Joseph Alexius Santos Tapang
+### Senior Business Systems Analyst | Data & Automation Specialist
+ 
+[![LinkedIn](https://shields.io)](https://linkedin.com)
+[![GitHub](https://shields.io)](https://github.com)
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 💼 About Me
+Accomplished Senior Business Systems Analyst with **11+ years of international enterprise experience** supporting premier financial institutions (including Sun Life and Accenture) across banking, compliance, and insurance frameworks. 
 
-## About Me
+Recently modernized my analytical toolkit with advanced Canadian post-graduate training in **Business Intelligence and Systems Infrastructure** (Dean’s Honour List). I specialize in bridging the gap between complex business requirements and modern, cloud-driven data solutions using Python, SQL, Power BI, and AWS.
 
-- Current student in Algonquin College, taking Business Intelligence and Systems Infrasrtucture 
-- Compeleted a Bachelor's Degree in Computer Science.
-- I have my career as a Business Analyst for 11 years in Banking, Finance, and Insurance industries.
+* 🎓 **Post-Graduate Certificate:** Business Intelligence & Systems Infrastructure | Algonquin College (Graduated: 2026)
+* 🎓 **Bachelor's Degree:** Computer Science
 
-This repository provides more information about the projects that I worked on, with sample documents to demonstrate my analytical and technical skills.
-## Domain Expertise
-- Trust Banking
-  - Client Management
-    - Client Prospecting
-    - Client Onboarding
-      - KYC Procedure
-      - Investment Risk Assessment
-    - Trust Account Creation
-    - Portfolio Creation
-    - Client Accounting Entry Creation
+---
 
+## 🛠️ Technical Toolkit & Competencies
+* **Methodologies:** SDLC, Agile/Scrum, Waterfall, Requirements Elicitation, Gap Analysis, Process/Data Mapping, UAT
+* **Data & Analytics:** SQL (Oracle, SQL Server), Python (Pandas, NumPy, Scikit-Learn), Power BI, Tableau, Advanced Excel
+* **Cloud & Infrastructure:** AWS Cloud, Data Modeling, Star/Snowflake Schemas, System Architecture
+* **Business Systems:** Jira, Confluence, MS Visio, ServiceNow, SharePoint, GitHub
 
-## Schoolwork / Projects worked on
+---
 
-#### An Analysis and Prediction on Fire Incidents within Greater Toronto Area
-**Domain:** Emergency Response
-**Tools used:** Python(pandas, matplotlib, seaborn, scikit), MS Excel, MS, Word
-**Objctive:** Perform analysis on Toronto Fire Services dataset and apply machine learning algorithms while adhering to CRISP-DM methodology.
+## 🎯 Domain & Banking Expertise
+* **Trust & Institutional Banking:** Trust Account Creation, Portfolio Provisioning, Client Accounting Frameworks
+* **Client Lifecycle Management:** Prospecting, End-to-End Client Onboarding
+* **Regulatory Compliance:** Know Your Customer (KYC) Procedures, Anti-Money Laundering (AML) Systems, Industry Risk Frameworks
 
+---
 
-#### Automated Client Risk Assessment Questionnaire
-**Domain:** Finance
-**Tools:** Python(streamlit, pandas, numpy, matplotlib, plotly), MS Excel, MS Word
-**Objective:** Apply python programming concepts to a real-world industry scenario.
+## 🚀 Highlighted Technical Projects
 
+### 📊 Automated Client Risk Assessment & Asset Allocation Platform
+* **Domain:** Wealth Management & Investment Compliance (Finance)
+* **Toolkit:** Python (Streamlit, Pandas, NumPy, Matplotlib, Plotly), MS Excel, SDLC Principles
+* **Objective:** Programmed an interactive investment risk engine to automate client profile onboarding questionnaires, dynamically generating asset allocations while adhering to regulatory compliance frameworks.
+* **🌐 [Launch Live Streamlit Application Instance](https://streamlit.app)**
 
+### 🔮 Predictive Machine Learning Modeling Dashboard
+* **Domain:** Predictive Analytics & Multi-Model Forecasting
+* **Toolkit:** Python (Streamlit, Scikit-Learn, Pandas, NumPy), Machine Learning (Linear Regression, Random Forest, Neural Networks, Clustering)
+* **Objective:** Built a unified machine learning sandbox application that trains, evaluates, and deploys multiple algorithms simultaneously. The platform enables interactive data entry to dynamically generate real-time property valuation and risk predictions based on structural data parameters.
+* **🌐 [Launch Live Streamlit Modeling App](https://streamlit.app)**
 
+### 📉 Geopolitical Risk Analytics & Star-Schema Data Model
+* **Domain:** Geopolitical Risk Intelligence & Volatility Modeling
+* **Toolkit:** Microsoft Power BI, DAX (Data Analysis Expressions), Power Query (M), Data Modeling (Star Schema), MS Excel
+* **Objective:** Conceptualized an end-to-end business intelligence pipeline to model, aggregate, and analyze global conflict data. Architected a highly optimized Star Schema database structure, established transactional data relationships, engineered custom automated DAX measures, and deployed interactive dashboards to deliver operational risk insights.
+* **📂 [View Repository & Architecture Artifacts](https://github.com)**
 
+### 🏠 Housing & Immigration Sector Analytics Framework (Capstone)
+* **Domain:** Macroeconomic Data Infrastructure
+* **Toolkit:** Advanced SQL Database Design, Cloud Infrastructure (AWS), Predictive Data Pipelines
+* **Objective:** Engineered an architectural impact data model transforming historical and projected census data to evaluate housing trends relative to changing systemic conditions.
+* **📂 [View Repository](https://github.com)**
 
+---
 
-
-
+## 📬 Connect With Me
+* **Location:** Ottawa, Ontario, Canada (Open to Hybrid/Remote roles in Toronto & Canadian Financial Hubs)
+* **Email:** josephalexius@gmail.com
+* **LinkedIn:** [/in/josephalexiustapang](https://linkedin.com)
