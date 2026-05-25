@@ -59,6 +59,6 @@ Recently modernized my analytical toolkit with advanced Canadian post-graduate t
 ---
 
 ## 📬 Connect With Me
-* **Location:** Ottawa, Ontario, Canada (Open to Hybrid/Remote roles in Toronto & Canadian Financial Hubs)
+* **Location:** Anywhere in Canada (Fully Open to Immediate Relocation as needed)
 * **Email:** josephalexius@gmail.com
 * **LinkedIn:** [/in/josephalexiustapang](https://linkedin.com)
