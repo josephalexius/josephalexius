@@ -1,8 +1,7 @@
 # Joseph Alexius Santos Tapang
 ### Senior Business Systems Analyst | Data & Automation Specialist
  
-[![LinkedIn](https://shields.io)](https://linkedin.com)
-[![GitHub](https://shields.io)](https://github.com)
+🔗 **Connect with me:** [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
 
 ---
 
