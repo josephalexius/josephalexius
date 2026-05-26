@@ -1,34 +1,35 @@
 # Geopolitical Conflict Intelligence Pipeline & Enterprise Data Model
 ### Domain: Geopolitical Risk Intelligence & Market Volatility Modeling
+### Data Source: Armed Conflict Location & Event Data Project (ACLED)
 
 ## 📌 Interactive Visual Dashboard (Master Executive View)
-Below is the unified master interface engineered to analyze global crisis indicators, resource disruptions, humanitarian impacts, and multi-stream macro-metrics simultaneously:
+Below is the unified master interface engineered to analyze global crisis indicators, resource disruptions, humanitarian impacts, and multi-stream macro-metrics simultaneously using verified ACLED historical data feeds:
 
-![Crisis Overview Power BI Dashboard](crisis-overview-dashboard.png)
+![Crisis Overview Power BI Dashboard](Overall-Dashboard.png)
 
 ---
 
 ## 📐 Data Architecture & Schema Topology (Master ERD View)
-Below is the comprehensive architectural blueprint of the operational database, demonstrating relational integrity across multi-dimensional transactional data streams:
+Below is the comprehensive architectural blueprint of the operational database, demonstrating relational integrity across a multi-dimensional normalized structure:
 
-![Data Model Schema View](data-model-schema.png)
+![Data Model Schema View](Overall-Snowflake-Schema.png)
 
 ---
 
-## 📐 Data Warehousing Strategy: Fact Constellation (Galaxy Schema)
-To handle multiple operational business processes concurrently without creating data silos, this production architecture utilizes a highly scalable **Fact Constellation (Galaxy Schema)** structure. Standardized dimensional contexts are shared dynamically across five distinct analytical boundaries.
+## 📐 Data Warehousing Strategy: Normalized Snowflake Schema
+To minimize data redundancy, optimize storage footprints, and strictly enforce relational hierarchy across complex geospatial data, this production architecture utilizes a highly scalable **Snowflake Schema** design. 
 
 ### 1. Centralized Fact Layer (Cross-Functional Data Streams)
-To simulate an enterprise Agile data warehouse environment, individual team members acted as decentralized stream owners. Disparate transactional feeds were isolated into five optimized Fact Tables to track independent business indicators, unified via a centralized relational mapping matrix:
+To simulate an enterprise Agile data warehouse environment, individual team members acted as decentralized stream owners. Disparate transactional feeds from ACLED were isolated into five optimized Fact Tables to track independent business indicators, unified via a centralized relational mapping matrix:
 * **`Joseph - FACT Conflict Events`:** Captures discrete event records, global actors, operational methods, and localized intensity vectors.
 * **`Hisham - FACT Economic Impact`:** Tracks quantifiable macroeconomic damage, trade disruptions, property loss, and systemic financial costs.
 * **`Rayan - FACT Humanitarian Impact`:** Quantifies human-cost metrics, casualties, media coverage indicators, and internal displacement data.
 * **`Hala - FACT International Response`:** Registers external diplomatic interventions, responding organizations, aid delivery streams, and service impacts.
 * **`Youssra - FACT Infrastructure Damage`:** Identifies structural destruction, critical asset impacts, and damage assessment classifications.
 
-### 2. Standardized Conformed Dimensions (Contextual Layers)
-To ensure absolute reporting accuracy and prevent computational inflation, all distinct fact tables map to shared, conformed dimension entities using precise **one-to-many (1:*) relational mapping**:
-* **Temporal Tracking (`Dim_Time`):** A unified date and time dimension serving as the core timeline for cross-functional trend analysis.
+### 2. Normalized Dimension Layer (Sub-Dimensional Relationships)
+Unlike a basic flat Star Schema, this architecture explicitly normalizes low-cardinality attributes into lookup tables (sub-dimensions) to achieve a clean **Snowflake** topology:
+* **Temporal Tracking (`Dim_Time`):** A unified date and time dimension serving as the core baseline for cross-functional trend analysis.
 * **Geographic Topography (`Dim_Location`):** Standardizes geospatial coordinates and national/regional boundaries to maintain zero data variance across streams.
 * **Target Contexts (`Dim_Actor`, `Dim_Conflict_Methods`, `Dim_Media_Coverage`):** Normalizes qualitative threat characteristics, political entities, and operational vectors across all active processing channels.
 
@@ -44,7 +45,6 @@ To ensure absolute reporting accuracy and prevent computational inflation, all d
 * **Calculation Automation Layer:** Implemented an isolated measures container (`Measure` folder) to aggregate cross-table KPIs natively without bloating transactional rows.
 
 ## 📂 Project Artifacts Included
-* `Geopolitical_Risk_Model.pbix` - Complete Power BI production file containing active transactional schema maps.
-* `crisis-overview-dashboard.png` - Master executive interface visualization.
-* `data-model-schema.png` - Complete Entity-Relationship Diagram (ERD) topology visualization.
-
+* `Geopolitical-Risk.pbix` - Complete Power BI production file containing active transactional schema maps.
+* `Overall-Dashboard.png` - Master executive interface visualization.
+* `Overall-Snowflake-Schema.png` - Complete Entity-Relationship Diagram (ERD) topology visualization.
