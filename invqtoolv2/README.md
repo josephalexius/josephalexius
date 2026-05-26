@@ -1,15 +1,9 @@
 # Enterprise Investor Suitability Engine & Machine Learning Risk Platform
 ### Phase 1: SDLC System Automation | Phase 2: Predictive XGBoost Analytics Optimization
 
-[![Python](https://shields.io)](https://python.org)
-[![Deployment](https://shields.io)](https://josephalexius-invq-toolv2.streamlit.app/)
-[![Repository Folder](https://shields.io)](https://github.com/josephalexius/josephalexius/tree/main/invqtoolv2)
-
----
-
-## 🌐 Live Production Instance
-The application is compiled, version-controlled via GitHub, and fully cloud-deployed:
-👉 **[Launch Live Streamlit Analytics Application](https://josephalexius-invq-toolv2.streamlit.app/)**
+💻 **Tech Stack:** Python 3.9+ | Streamlit Cloud | GitHub CI/CD  
+🌐 **Live App Instance:** [Launch Live Streamlit Analytics Application](https://streamlit.app)  
+📂 **Repository Source:** [View GitHub Folder (/invqtoolv2)](https://github.com)
 
 ---
 
@@ -90,4 +84,4 @@ The deployment pipeline bridges version control directly with local application 
 3. **SaaS Continuous Delivery:** Integrated repository webhooks with the **Streamlit Community Cloud** platform to compile, host, and push software updates to the web production application instance on every master git commit.
 
 ---
-*Developed as an advanced technical deliverable combining Software Engineering (SDLC) and Applied Data Science (CRISP-DM) principles at Algonquin College (2026).*
+*Developed as an advanced technical deliverable combining Software Engineering (SDLC) and Applied Data Science (CRISP-DM) principles at Algonquin College (2025-2026).*
