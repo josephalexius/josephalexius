@@ -44,11 +44,12 @@ Recently modernized my analytical toolkit with advanced Canadian post-graduate t
 * **Objective:** Built a unified machine learning sandbox application that trains, evaluates, and deploys multiple algorithms simultaneously. The platform enables interactive data entry to dynamically generate real-time property valuation and risk predictions based on structural data parameters.
 * **🌐 [Launch Live Streamlit Modeling App](https://streamlit.app)**
 
-### 📉 Geopolitical Risk Analytics & Star-Schema Data Model
-* **Domain:** Geopolitical Risk Intelligence & Volatility Modeling
-* **Toolkit:** Microsoft Power BI, DAX (Data Analysis Expressions), Power Query (M), Data Modeling (Star Schema), MS Excel
-* **Objective:** Conceptualized an end-to-end business intelligence pipeline to model, aggregate, and analyze global conflict data. Architected a highly optimized Star Schema database structure, established transactional data relationships, engineered custom automated DAX measures, and deployed interactive dashboards to deliver operational risk insights.
-* **📂 [View Repository & Architecture Artifacts](https://github.com)**
+### 📉 Geopolitical Risk Analytics & Snowflake Data Model
+* **Domain:** Geopolitical Risk Intelligence & Market Volatility Modeling
+* **Data Source:** Armed Conflict Location & Event Data Project (ACLED)
+* **Toolkit:** Microsoft Power BI, DAX (Data Analysis Expressions), Power Query (M), Data Modeling (Snowflake Schema), MS Excel
+* **Objective:** Conceptualized an end-to-end business intelligence pipeline to model, aggregate, and analyze global conflict data. Architected a highly optimized, normalized Snowflake Schema structure, established transactional data relationships across 5 distinct fact streams, engineered custom automated DAX measures, and deployed interactive dashboards to deliver operational risk insights.
+* **📂 [View Repository & Architecture Artifacts](https://github.com/tree/main/Geopolitical-Risk-PowerBI)**
 
 ### 🏠 Housing & Immigration Sector Analytics Framework (Capstone)
 * **Domain:** Macroeconomic Data Infrastructure
@@ -59,6 +60,6 @@ Recently modernized my analytical toolkit with advanced Canadian post-graduate t
 ---
 
 ## 📬 Connect With Me
-* **Location:** Anywhere in Canada (Fully Open to Immediate Relocation as needed)
+* **Location:** Ottawa, Ontario, Canada (Fully Open to Immediate Relocation Canada-Wide)
 * **Email:** josephalexius@gmail.com
 * **LinkedIn:** [/in/josephalexiustapang](https://linkedin.com)
