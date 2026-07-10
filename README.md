@@ -1,7 +1,7 @@
 # Joseph Alexius Santos Tapang
 ### Business Systems Analyst | Data & Automation Specialist
  
-🔗 **Connect with me:** [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
+🔗 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/josephalexiustapang/) | [GitHub](https://github.com/josephalexius/josephalexius)
 
 ---
 
@@ -36,13 +36,13 @@ Recently modernized my analytical toolkit with advanced Canadian post-graduate t
 * **Domain:** Wealth Management & Investment Compliance (Finance)
 * **Toolkit:** Python (Streamlit, Pandas, NumPy, Matplotlib, Plotly), MS Excel, SDLC Principles
 * **Objective:** Programmed an interactive investment risk engine to automate client profile onboarding questionnaires, dynamically generating asset allocations while adhering to regulatory compliance frameworks.
-* **🌐 [Launch Live Streamlit Application Instance](https://streamlit.app)**
+* **🌐 [Launch Live Streamlit Application Instance](https://josephalexius-invq-toolv2.streamlit.app/)**
 
 ### 🔮 Predictive Machine Learning Modeling Dashboard
 * **Domain:** Predictive Analytics & Multi-Model Forecasting
 * **Toolkit:** Python (Streamlit, Scikit-Learn, Pandas, NumPy), Machine Learning (Linear Regression, Random Forest, Neural Networks, Clustering)
 * **Objective:** Built a unified machine learning sandbox application that trains, evaluates, and deploys multiple algorithms simultaneously. The platform enables interactive data entry to dynamically generate real-time property valuation and risk predictions based on structural data parameters.
-* **🌐 [Launch Live Streamlit Modeling App](https://streamlit.app)**
+* **🌐 [Launch Live Streamlit Modeling App](https://josephalexius-predictionalgorithms20260416.streamlit.app/)**
 
 ### 📉 Geopolitical Risk Analytics & Snowflake Data Model
 * **Domain:** Geopolitical Risk Intelligence & Market Volatility Modeling
@@ -62,4 +62,4 @@ Recently modernized my analytical toolkit with advanced Canadian post-graduate t
 ## 📬 Connect With Me
 * **Location:** Ottawa, Ontario, Canada (Fully Open to Immediate Relocation Canada-Wide)
 * **Email:** josephalexius@gmail.com
-* **LinkedIn:** [/in/josephalexiustapang](https://linkedin.com)
+* **LinkedIn:** [/in/josephalexiustapang](https://www.linkedin.com/in/josephalexiustapang/)
