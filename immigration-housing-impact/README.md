@@ -31,29 +31,121 @@ This framework implements precise data routing, feature engineering, and conditi
 
 ---
 
-## 🏆 3. Project Success Criteria
+## 🛠️ 3. Technical Architecture & Data Stack
+This project transitions manual, decentralized reporting pipelines into an integrated analytical asset using enterprise-grade development and spreadsheet optimization environments:
+*   **Methodology Workflow:** CRISP-DM (Cross-Industry Standard Process for Data Mining)
+*   **Data Processing & Engineering Engine:** Visual Studio Code (Python, Pandas, NumPy) for programmatic data ingestion, schema validation, and multi-tier time-series data lineage tracking.
+*   **Analytical Matrix Layer:** Microsoft Excel for data parsing, variable cross-checking, and relational data reconciliation.
+*   **Visualization & Plot Execution:** Programmatic visual chart generation deployed within Visual Studio Code environments and Excel reporting matrices.
+*   **Applied Web Layer:** Live Streamlit deployment automation engine for client risk-profiling simulation.
+
+---
+
+## 📊 4. Analytical Findings & Country-Wide Chart Results
+
+### 🧮 Macroeconomic Capacity Summary Matrix (Final Model Outputs)
+The data processing engine successfully generated the national matrix below, evaluating the intersections of planned immigration levels against regional housing infrastructure capacity thresholds:
+
+| Province / Territory | Infrastructure Sufficiency | Predicted Threshold Value | Predicted Capacity Assessment |
+| :--- | :---: | :---: | :---: |
+| **Newfoundland and Labrador** | Insufficient | 774,818.00 | Within Capacity |
+| **Prince Edward Island** | Insufficient | 248,165.00 | **Exceeding Capacity** |
+| **Nova Scotia** | Insufficient | 1,223,042.00 | **Exceeding Capacity** |
+| **New Brunswick** | Insufficient | 1,045,167.00 | Below Capacity |
+| **Quebec** | Insufficient | 9,545,745.00 | **Exceeding Capacity** |
+| **Ontario** | Insufficient | 19,977,558.00 | Below Capacity |
+| **Manitoba** | Insufficient | 1,146,183.00 | **Exceeding Capacity** |
+| **Saskatchewan** | Insufficient | 1,457,084.00 | Within Capacity |
+| **Alberta** | Insufficient | 6,435,248.00 | **Exceeding Capacity** |
+| **British Columbia** | Insufficient | 6,940,776.00 | Below Capacity |
+| **Yukon** | Insufficient | 63,194.00 | Below Capacity |
+| **Northwest Territories** | Insufficient | 57,373.00 | Within Capacity |
+| **Nunavut** | Insufficient | 46,817.00 | **Exceeding Capacity** |
+
+*Core System Insight: The system isolated an `Insufficient` state across all 13 regions, signaling that while certain provinces maintain short-term room or sit safely 'Within Capacity', long-term housing development paths fall short of the absolute demographic demand timelines calculated through 2027.*
+
+---
+
+### 🗺️ Regional Roadmap Lookups
+Select a specific Canadian province or territory below to instantly jump to its localized infrastructure roadmap and capacity visualization:
+
+*   **Western Canada:** [Alberta](#-alberta) | [British Columbia](#-british-columbia) | [Manitoba](#-manitoba) | [Saskatchewan](#-saskatchewan)
+*   **Central Canada:** [Ontario](#-ontario) | [Quebec](#-quebec)
+*   **Atlantic Canada:** [New Brunswick](#-new-brunswick) | [Newfoundland and Labrador](#-newfoundland-and-labrador) | [Nova Scotia](#-nova-scotia) | [Prince Edward Island](#-prince-edward-island)
+*   **Northern Territories:** [Northwest Territories](#-northwest-territories) | [Nunavut](#-nunavut) | [Yukon](#-yukon)
+
+---
+
+### 🏔️ Alberta
+The system tracks Alberta's high-velocity resource-driven population growth models against active residential construction starts.
+
+![Infrastructure Capacity Roadmap - Alberta](InfrastructureCapacityRoadmap-Alberta.png)
+
+### 🌲 British Columbia
+Models Pacific gateway demographic intake vectors against strict regional zoning constraints and housing completion rates.
+
+![Infrastructure Capacity Roadmap - British Columbia](InfrastructureCapacityRoadmap-BritishColumbia.png)
+
+### 🌾 Manitoba
+Tracks central prairie population baselines relative to infrastructural sustainability parameters.
+
+![Infrastructure Capacity Roadmap - Manitoba](InfrastructureCapacityRoadmap-Manitoba.png)
+
+### 🦞 New Brunswick
+Analyzes maritime economic migrations testing the absorption ceilings of local municipal services.
+
+![Infrastructure Capacity Roadmap - New Brunswick](InfrastructureCapacityRoadmap-NewBrunswick.png)
+
+### 🐟 Newfoundland and Labrador
+Isolates a definitive historical structural capacity deficit peaking in 2016, shifting into a structurally managed equilibrium post-2025 following deliberate policy intervention and target synchronization.
+
+![Infrastructure Capacity Roadmap - Newfoundland and Labrador](InfrastructureCapacityRoadmap-NewfoundlandAndLabrador.png)
+
+### 🍁 Northwest Territories
+Tracks high-latitude infrastructure supply models facing unique logistical constraints against volatile population shifts.
+
+![Infrastructure Capacity Roadmap - Northwest Territories](InfrastructureCapacityRoadmap-NorthwestTerritories.png)
+
+### 🍎 Nova Scotia
+Models rapid urban compression metrics inside the Halifax Regional Municipality relative to regional infrastructure goals.
+
+![Infrastructure Capacity Roadmap - Nova Scotia](InfrastructureCapacityRoadmap-NovaScotia.png)
+
+### 🐳 Nunavut
+Evaluates unique community-based housing footprints under strict geographical constraints.
+
+![Infrastructure Capacity Roadmap - Nunavut](InfrastructureCapacityRoadmap-Nunavut.png)
+
+### 🏢 Ontario
+Documents high-density metropolitan capacity compressions where current federal levels test the absolute upper thresholds of local infrastructure capacity.
+
+![Infrastructure Capacity Roadmap - Ontario](InfrastructureCapacityRoadmap-Ontario.png)
+
+### 🥔 Prince Edward Island
+Analyzes localized population density shocks relative to a finite infrastructure footprint.
+
+![Infrastructure Capacity Roadmap - Prince Edward Island](InfrastructureCapacityRoadmap-PrinceEdwardIsland.png)
+
+### ⚜️ Quebec
+Models independent immigration selection thresholds relative to province-wide structural dwelling starts and caps.
+
+![Infrastructure Capacity Roadmap - Quebec](InfrastructureCapacityRoadmap-Quebec.png)
+
+### 🚜 Saskatchewan
+Tracks prairie sector expansion metrics against agricultural support infrastructures.
+
+![Infrastructure Capacity Roadmap - Saskatchewan](InfrastructureCapacityRoadmap-Saskatchewan.png)
+
+### 🪵 Yukon
+Evaluates sub-arctic administrative population centers under strict capacity caps.
+
+![Infrastructure Capacity Roadmap - Yukon](InfrastructureCapacityRoadmap-Yukon.png)
+
+---
+
+## 🏆 5. Project Success Criteria
 To achieve full project verification and satisfy institutional stakeholder requirements, the system delivers two core operational assets:
 *   **The Unified Capacity Summary Matrix:** An automated summary table that aggregates, normalizes, and exposes the exact answers to the core business questions across all regions.
-*   **The 13-Region Visual Interface:** An interactive business intelligence dashboard tracking all **13 Canadian provinces and territories**. The model maps shifting historical geographic boundaries and visualizes how local populations interact with housing supply performance across a 15-year baseline (**2011 to 2025**), seamlessly integrated with the forecasted **2026–2027 immigration levels plan**.
+*   **The 13-Region Visual Interface:** An interactive analytical interface tracking all **13 Canadian provinces and territories**. The model maps shifting historical geographic boundaries and visualizes how local populations interact with housing supply performance across a 15-year baseline (**2011 to 2025**), seamlessly integrated with the forecasted **2026–2027 immigration levels plan**.
 
----
 
-## 🛠️ 4. Technical Architecture & Data Stack
-*   **Methodology Workflow:** CRISP-DM (Cross-Industry Standard Process for Data Mining)
-*   **Data Ingestion Pipeline:** Python (Pandas, NumPy) for automated extraction and boundary normalization
-*   **Relational Database Schema:** Normalized Snowflake Schema designed to preserve absolute data lineage
-*   **Visualization Layer:** Power BI Desktop leveraging custom DAX measures for query performance optimization
-*   **Applied Web Layer:** Live Streamlit deployment automation engine for client risk-profiling simulation
-
----
-
-## 📂 5. Repository File Guide
-To navigate this portfolio project, files are structured into the following operational environments:
-*   `[Live Production Automation Tool](https://streamlit.app)` — Click to view the interactive live application.
-*   `/notebooks` — Python scripts managing data ingestion, federal schema validation, and boundary alignment.
-*   `/templates_and_reporting` — Power BI data models (`.pbix`) and standardized bi-weekly stakeholder progress reports.
-
----
-## 📬 Contact & Professional Links
-*   **LinkedIn Profile:** [josephalexiustapang](https://linkedin.com)
-*   **GitHub Master Profile:** [josephalexius](https://github.com)
