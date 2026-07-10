@@ -16,17 +16,19 @@ Recently modernized my analytical toolkit with advanced Canadian post-graduate t
 ---
 
 ## 🛠️ Technical Toolkit & Competencies
-* **Methodologies:** SDLC, Agile/Scrum, Waterfall, Requirements Elicitation, Gap Analysis, Process/Data Mapping, UAT
-* **Data & Analytics:** SQL (Oracle, SQL Server), Python (Pandas, NumPy, Scikit-Learn), Power BI, Tableau, Advanced Excel
-* **Cloud & Infrastructure:** AWS Cloud, Data Modeling, Star/Snowflake Schemas, System Architecture
-* **Business Systems:** Jira, Confluence, MS Visio, ServiceNow, SharePoint, GitHub
+* **Business Analysis & Product Delivery:** Requirements Elicitation (BRD/FRD), Gap Analysis, Process/Data Mapping, Traceability Matrix Management, Cost-Benefit Analysis, Vendor Milestone Management, Workshop Facilitation, CRISP-DM
+* **ITSM & Production Support:** L2 Production Support, Application Monitoring, Incident Triaging & Resolution, Root Cause Analysis (RCA), SLA Compliance, Log File Diagnostics, Release/Change Management, Help Desk Escalation
+* **Data Engineering & Architecture:** Relational Database Verification, Advanced Database Normalization, Snowflake & Star Schemas, Data Lineage Tracking, Feature Engineering, Batch Processing Logic, Data Transformation & Cleanup Rules
+* **Technical Stack:** SQL (Oracle, SQL Server), Python (Pandas, NumPy, Scikit-Learn), Power BI, Tableau, Advanced Excel (DAX Measures, Power Query), Java/C# Familiarity, API Troubleshooting, Cloud Infrastructure (AWS)
+* **Testing & Quality Assurance:** Systems Integration Testing (SIT), User Acceptance Testing (UAT) Execution & Coordination, Operational Readiness Testing (ORT), Post-Implementation Defect Triage, UAT Test Staging Environments
+* **Enterprise Collaboration Systems:** ServiceNow, Redmine, Jira, Confluence, MS Visio, SharePoint, GitHub, Webex
 
 ---
 
-## 🎯 Domain & Banking Expertise
-* **Trust & Institutional Banking:** Trust Account Creation, Portfolio Provisioning, Client Accounting Frameworks
-* **Client Lifecycle Management:** Prospecting, End-to-End Client Onboarding
-* **Regulatory Compliance:** Know Your Customer (KYC) Procedures, Anti-Money Laundering (AML) Systems, Industry Risk Frameworks
+## 🎯 Domain & Financial Sector Expertise
+* **Banking & Portfolio Investments:** Trust Account Creation, Portfolio Provisioning, Client Accounting Frameworks, Wealth Management Platforms, Treasury Core Module Enhancements, Core Banking Systems Legacy Replacement Projects
+* **Mortgage, Lending & Asset Recovery:** Credit Evaluation, Loan Pipeline Logistics, Automated Card Collections Systems, Customer Credit Recovery Workflows, Vehicle Leasing Infrastructure, Operational Risk Minimization
+* **Insurance & Client Lifecycle Systems:** Policy Data Sheet Initiatives, Life Insurance Application Support, Sales Dashboards, High-Velocity Client Onboarding, Payment Processing Data Lineage, Verification Gaps Resolution
 
 ---
 
