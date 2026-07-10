@@ -97,7 +97,7 @@ Analyzes maritime economic migrations testing the absorption ceilings of local m
 ### 🐟 Newfoundland and Labrador
 Isolates a definitive historical structural capacity deficit peaking in 2016, shifting into a structurally managed equilibrium post-2025 following deliberate policy intervention and target synchronization.
 
-![Infrastructure Capacity Roadmap - Newfoundland and Labrador](InfrastructureCapacityRoadmap-NewResidentialCompletions.png)
+![Infrastructure Capacity Roadmap - Newfoundland and Labrador](InfrastructureCapacityRoadmap-NewfoundlandAndLabrador.png)
 
 ### 🍁 Northwest Territories
 Tracks high-latitude infrastructure supply models facing unique logistical constraints against volatile population shifts.
