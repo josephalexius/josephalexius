@@ -1,5 +1,5 @@
 # Joseph Alexius Santos Tapang
-### Senior Business Systems Analyst | Data & Automation Specialist
+### Business Systems Analyst | Data & Automation Specialist
  
 🔗 **Connect with me:** [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
 
@@ -49,13 +49,13 @@ Recently modernized my analytical toolkit with advanced Canadian post-graduate t
 * **Data Source:** Armed Conflict Location & Event Data Project (ACLED)
 * **Toolkit:** Microsoft Power BI, DAX (Data Analysis Expressions), Power Query (M), Data Modeling (Snowflake Schema), MS Excel
 * **Objective:** Conceptualized an end-to-end business intelligence pipeline to model, aggregate, and analyze global conflict data. Architected a highly optimized, normalized Snowflake Schema structure, established transactional data relationships across 5 distinct fact streams, engineered custom automated DAX measures, and deployed interactive dashboards to deliver operational risk insights.
-* **📂 [View Repository & Architecture Artifacts](https://github.com/tree/main/Geopolitical-Risk-PowerBI)**
+* **📂 [View Repository & Architecture Artifacts](https://github.com/josephalexius/tree/main/Geopolitical-Risk-PowerBI)**
 
 ### 🏠 Housing & Immigration Sector Analytics Framework (Capstone)
 * **Domain:** Macroeconomic Data Infrastructure
-* **Toolkit:** Advanced SQL Database Design, Cloud Infrastructure (AWS), Predictive Data Pipelines
-* **Objective:** Engineered an architectural impact data model transforming historical and projected census data to evaluate housing trends relative to changing systemic conditions.
-* **📂 [View Repository](https://github.com)**
+* **Toolkit:** Advanced SQL Database Design, Cloud Infrastructure (AWS), Predictive Data Pipelines, Excel, VS Code
+* **Objective:** Engineered an architectural impact data model transforming historical and projected census data to evaluate housing trends relative to changing systemic conditions and immigration quotas.
+* **📂 [View Capstone Repository](https://github.com/josephalexius/tree/main/immigration-housing-impact)**
 
 ---
 
