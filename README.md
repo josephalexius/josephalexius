@@ -11,7 +11,7 @@ Accomplished Senior Business Systems Analyst with **11+ years of international e
 Recently modernized my analytical toolkit with advanced Canadian post-graduate training in **Business Intelligence and Systems Infrastructure** (Dean’s Honour List). I specialize in bridging the gap between complex business requirements and modern, cloud-driven data solutions using Python, SQL, Power BI, and AWS.
 
 * 🎓 **Post-Graduate Certificate:** Business Intelligence & Systems Infrastructure | Algonquin College (Graduated: 2026)
-* 🎓 **Bachelor's Degree:** Computer Science
+* 🎓 **Bachelor's Degree:** Computer Science | Polytechnic University of the Philippines (Graduated: 2009)
 
 ---
 
